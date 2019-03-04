@@ -1,0 +1,43 @@
+{
+  "name": "@gohelpfund/helpcore-channel",
+  "version": "1.0.1",
+  "description": "Add payment channels support to bitcore/helpcore",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage"
+  },
+  "author": "BitPay <dev@bitpay.com>",
+  "contributors": [
+    {
+      "name": "Daniel Tirzuman",
+      "email": "daniel@tirzuman.com"
+    }
+  ],
+  "keywords": [
+    "help",
+    "bitcore",
+    "btc",
+    "satoshi",
+    "payment channels",
+    "channel",
+    "smart contract",
+    "gohelpfund",
+    "helpcore"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/gohelpfund/helpcore-channel",
+  "dependencies": {
+    "bitcore-lib-help": "^0.13.20",
+    "inherits": "=2.0.1"
+  },
+  "devDependencies": {
+    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "brfs": "^1.2.0",
+    "chai": "^2.3.0",
+    "gulp": "^3.8.10",
+    "nodejs-externs": "^0.10.0",
+    "request": "^2.48.0",
+    "vinyl-transform": "^1.0.0"
+  }
+}
